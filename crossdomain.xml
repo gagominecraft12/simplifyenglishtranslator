@@ -1,1 +1,9 @@
-<crossdomain ></crossdomain>
+<?xml version="1.0" ?>
+<cross-domain-policy>
+  <site-control permitted-cross-domain-policies="master-only"/>
+  <allow-access-from domain="*.github.com"/>
+  <allow-access-from domain="*.vyond.com" headers="data/xml"/>
+  <allow-access-from domain="*.openai.com"/>
+  <![CDATA[ *, *, *]]>
+  <allow-http-request-headers-from domain="*" headers="*"/>
+</cross-domain-policy>

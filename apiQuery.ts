@@ -1,0 +1,1 @@
+const bingtranslate = require("bing-translate-api");
