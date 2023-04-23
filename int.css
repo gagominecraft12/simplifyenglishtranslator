@@ -1,0 +1,15 @@
+header {
+    border: 2mm;
+    color: black;
+    height: 2cm;
+}
+
+p {
+
+}
+
+input#ai.translate {
+    border: 0cm;
+    background-color: black;
+    color: white;
+}
